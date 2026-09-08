@@ -1,0 +1,37 @@
+{
+  "salles": [
+    {
+      "id": "hall-principal",
+      "description": "Un hall d'entrée aux murs lambrissés. Deux portes s'ouvrent de part et d'autre.",
+      "objets": [],
+      "mobilier": [],
+      "portes": [
+        { "vers": "us02-salon-est", "description": "Une porte à double battant" },
+        { "vers": "us03-cuisine", "description": "Une porte basse en bois" }
+      ]
+    },
+    {
+      "id": "us02-salon-est",
+      "description": "Un salon poussiéreux, les rideaux tirés.",
+      "objets": [
+        { "nom": "chandelier en argent", "visible": true },
+        { "nom": "clé rouillée", "visible": false }
+      ],
+      "mobilier": [
+        { "nom": "commode en chêne", "fouillable": true, "contient": ["clé rouillée"] }
+      ],
+      "portes": [
+        { "vers": "hall-principal", "description": "Une porte à double battant" }
+      ]
+    },
+    {
+      "id": "us03-cuisine",
+      "description": "Une cuisine vide, les placards ouverts.",
+      "objets": [],
+      "mobilier": [],
+      "portes": [
+        { "vers": "hall-principal", "description": "Une porte basse en bois" }
+      ]
+    }
+  ]
+}

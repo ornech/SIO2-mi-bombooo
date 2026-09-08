@@ -32,6 +32,20 @@
       "portes": [
         { "vers": "hall-principal", "description": "Une porte basse en bois" }
       ]
+    },{
+      "id": "us05-Terrasse",
+      "description": "Une terrasse en bois, entourée de plantes.",
+      "objets": [
+        { "nom": "cendrier remplis à ras bord", "visible": true },
+        { "nom": "baie de brassage", "visible": true }
+      ],
+      "mobilier": [
+        { "nom": "table en bois", "fouillable": false, "contient": ["MacBook M5 ultra"] },
+        { "nom": "chaise en bois", "fouillable": false, "contient": [] }
+      ],
+      "portes": [
+        { "vers": "hall-principal", "description": "Une porte basse en bois" }
+      ]
     }
   ]
 }

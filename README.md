@@ -1,17 +1,17 @@
 # Projet MI BOMBOOO
 
-##Diagramme de cas d'utilisation
+## Diagramme de cas d'utilisation
 
-``` mermaid
+```mermaid
 graph LR
-    actor Joueur
+    Joueur["Joueur"]
 
     subgraph MI BOMBOOO
-        Deplacer[Déplacer]
-        Interagir[Interagir]
-        Combattre[Combattre]
-        Recuperer[Récupérer]
-        Fuir[Fuir]
+        Deplacer["Déplacer"]
+        Interagir["Interagir"]
+        Combattre["Combattre"]
+        Recuperer["Récupérer"]
+        Fuir["Fuir"]
     end
 
     Joueur --> Deplacer
@@ -21,4 +21,3 @@ graph LR
     Recuperer -.->|include| Interagir
     Fuir -.->|include| Combattre
 ```
-

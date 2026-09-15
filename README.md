@@ -4,22 +4,20 @@
 
 ```mermaid
 graph LR
-    actor Joueur
+    Joueur["Joueur"]
 
     subgraph MI BOMBOOO
-        Deplacer[Déplacer]
-        Interagir[Interagir]
-        Combattre[Combattre]
-        Recuperer[Récupérer]
-        Fuir[Fuir]
+        Deplacer["Déplacer"]
+        Interagir["Interagir"]
+        Combattre["Combattre"]
+        Recuperer["Récupérer"]
+        Fuir["Fuir"]
     end
 
-    %% Relations entre l'acteur et les cas d'utilisation
-    J --> Deplacer
-    J --> Interagir
-    J --> Combattre
+    Joueur --> Deplacer
+    Joueur --> Interagir
+    Joueur --> Combattre
 
-    %% Relations entre les cas d'utilisation (include)
     Recuperer -.->|include| Interagir
     Fuir -.->|include| Combattre
 ```

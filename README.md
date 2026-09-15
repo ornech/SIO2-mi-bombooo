@@ -1,8 +1,8 @@
-#Projet MI BOMBOOO
+# Projet MI BOMBOOO
 
 ##Diagramme de cas d'utilisation
 
-
+``` mermaid
 usecase-beta
 direction LR
 
@@ -22,3 +22,5 @@ Joueur --> Combattre
 
 Recuperer ..> Interagir : include
 Fuir ..> Combattre : include
+```
+

@@ -7,11 +7,11 @@ graph LR
     Joueur["Joueur"]
 
     subgraph MI BOMBOOO
-        Deplacer["Déplacer"]
-        Interagir["Interagir"]
-        Combattre["Combattre"]
-        Recuperer["Récupérer"]
-        Fuir["Fuir"]
+        Deplacer[Déplacer]
+        Interagir[Interagir]
+        Combattre[Combattre]
+        Recuperer[Récupérer]
+        Fuir[Fuir]
     end
 
     Joueur --> Deplacer

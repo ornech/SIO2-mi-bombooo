@@ -6,22 +6,47 @@
       "objets": [],
       "mobilier": [],
       "portes": [
-        { "vers": "us02-salon-est", "description": "Une porte à double battant" },
-        { "vers": "us03-cuisine", "description": "Une porte basse en bois" }
+        {
+          "vers": "us02-salon-est",
+          "description": "Une porte à double battant"
+        },
+        {
+          "vers": "us03-cuisine",
+          "description": "Une porte basse en bois"
+        },
+        {
+          "vers": "us04-bibliothèque",
+          "description": "Une grande porte en bois"
+        }
       ]
     },
     {
       "id": "us02-salon-est",
       "description": "Un salon poussiéreux, les rideaux tirés.",
       "objets": [
-        { "nom": "chandelier en argent", "visible": true },
-        { "nom": "clé rouillée", "visible": false }
+        {
+          "nom": "chandelier en argent",
+          "visible": true
+        },
+        {
+          "nom": "clé rouillée",
+          "visible": false
+        }
       ],
       "mobilier": [
-        { "nom": "commode en chêne", "fouillable": true, "contient": ["clé rouillée"] }
+        {
+          "nom": "commode en chêne",
+          "fouillable": true,
+          "contient": [
+            "clé rouillée"
+          ]
+        }
       ],
       "portes": [
-        { "vers": "hall-principal", "description": "Une porte à double battant" }
+        {
+          "vers": "hall-principal",
+          "description": "Une porte à double battant"
+        }
       ]
     },
     {
@@ -30,21 +55,61 @@
       "objets": [],
       "mobilier": [],
       "portes": [
-        { "vers": "hall-principal", "description": "Une porte basse en bois" }
+        {
+          "vers": "hall-principal",
+          "description": "Une porte basse en bois"
+        }
       ]
-    },{
+    },
+    {
+      "id": "us04-bibliothèque",
+      "description": "Une bibliothèque immense, le sol est couvert de bouquin.",
+      "objets": [
+        {
+          "nom": "Vieux livre",
+          "visible": true
+        }
+      ],
+      "mobilier": [],
+      "portes": [
+        {
+          "vers": "hall-principal",
+          "description": "Une grande porte en bois"
+        }
+      ]
+    },
+    {
       "id": "us05-Terrasse",
       "description": "Une terrasse en bois, entourée de plantes.",
       "objets": [
-        { "nom": "cendrier remplis à ras bord", "visible": true },
-        { "nom": "baie de brassage", "visible": true }
+        {
+          "nom": "cendrier remplis à ras bord",
+          "visible": true
+        },
+        {
+          "nom": "baie de brassage",
+          "visible": true
+        }
       ],
       "mobilier": [
-        { "nom": "table en bois", "fouillable": false, "contient": ["MacBook M5 ultra"] },
-        { "nom": "chaise en bois", "fouillable": false, "contient": [] }
+        {
+          "nom": "table en bois",
+          "fouillable": false,
+          "contient": [
+            "MacBook M5 ultra"
+          ]
+        },
+        {
+          "nom": "chaise en bois",
+          "fouillable": false,
+          "contient": []
+        }
       ],
       "portes": [
-        { "vers": "hall-principal", "description": "Une porte basse en bois" }
+        {
+          "vers": "hall-principal",
+          "description": "Une porte basse en bois"
+        }
       ]
     }
   ]

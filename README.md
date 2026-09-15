@@ -14,10 +14,12 @@ graph LR
         Fuir[Fuir]
     end
 
-    Joueur --> Deplacer
-    Joueur --> Interagir
-    Joueur --> Combattre
+    %% Relations entre l'acteur et les cas d'utilisation
+    J --> Deplacer
+    J --> Interagir
+    J --> Combattre
 
+    %% Relations entre les cas d'utilisation (include)
     Recuperer -.->|include| Interagir
     Fuir -.->|include| Combattre
 ```

@@ -4,15 +4,14 @@
 
 ```mermaid
 graph LR
-    %% Définition explicite de l'acteur avec un alias
-    actor Joueur as J
+    actor Joueur
 
     subgraph MI BOMBOOO
-        Deplacer["Déplacer"]
-        Interagir["Interagir"]
-        Combattre["Combattre"]
-        Recuperer["Récupérer"]
-        Fuir["Fuir"]
+        Deplacer[Déplacer]
+        Interagir[Interagir]
+        Combattre[Combattre]
+        Recuperer[Récupérer]
+        Fuir[Fuir]
     end
 
     %% Relations entre l'acteur et les cas d'utilisation

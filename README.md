@@ -8,11 +8,11 @@ graph LR
     actor Joueur as J
 
     subgraph MI BOMBOOO
-        Deplacer[Déplacer]
-        Interagir[Interagir]
-        Combattre[Combattre]
-        Recuperer[Récupérer]
-        Fuir[Fuir]
+        Deplacer["Déplacer"]
+        Interagir["Interagir"]
+        Combattre["Combattre"]
+        Recuperer["Récupérer"]
+        Fuir["Fuir"]
     end
 
     %% Relations entre l'acteur et les cas d'utilisation

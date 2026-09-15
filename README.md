@@ -3,24 +3,22 @@
 ##Diagramme de cas d'utilisation
 
 ``` mermaid
-usecase-beta
-direction LR
+graph LR
+    actor Joueur
 
-actor Joueur("Joueur") 
+    subgraph MI BOMBOOO
+        Deplacer[Déplacer]
+        Interagir[Interagir]
+        Combattre[Combattre]
+        Recuperer[Récupérer]
+        Fuir[Fuir]
+    end
 
-systemBoundary "MI BOMBOOO" {
-  usecase Deplacer("Déplacer")
-  usecase Interagir("Interagir")
-  usecase Combattre("Combattre")
-  usecase Recuperer("Récupérer")
-  usecase Fuir("Fuir")
-}
+    Joueur --> Deplacer
+    Joueur --> Interagir
+    Joueur --> Combattre
 
-Joueur --> Deplacer
-Joueur --> Interagir
-Joueur --> Combattre
-
-Recuperer ..> Interagir : include
-Fuir ..> Combattre : include
+    Recuperer -.->|include| Interagir
+    Fuir -.->|include| Combattre
 ```
 

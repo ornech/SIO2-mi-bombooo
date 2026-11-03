@@ -2,8 +2,17 @@
 
 ## Diagramme de cas d'utilisation
 
-<img width="1118" height="466" alt="image" src="https://github.com/user-attachments/assets/e8633375-ebc7-44f7-b5aa-9053e27f3bb2" />
+```mermaid
+graph LR
+    Joueur["Joueur"]
 
 ## Diagramme de séquence 
 ![Uploading image.png…]()
 
+    Joueur --> Deplacer
+    Joueur --> Interagir
+    Joueur --> Combattre
+
+    Recuperer -.->|include| Interagir
+    Fuir -.->|include| Combattre
+```

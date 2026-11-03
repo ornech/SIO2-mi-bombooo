@@ -17,6 +17,14 @@
         {
           "vers": "us04-bibliothèque",
           "description": "Une grande porte en bois"
+        },
+        {
+          "vers": "us05-Terrasse",
+          "description": "Une porte vitrée en Acajou"
+        },
+        {
+          "vers": "us06-corridor",
+          "description": "Une lourde porte en bois massive"
         }
       ]
     },
@@ -108,7 +116,44 @@
       "portes": [
         {
           "vers": "hall-principal",
-          "description": "Une porte basse en bois"
+          "description": "Une porte vitrée en Acajou"
+        }
+      ]
+    },
+    {
+      "id": "us06-corridor",
+      "description": "Un long couloir éclairé par des torches accrochées aux murs.",
+      "objets": [
+        {
+          "nom": "peinture d'un chien",
+          "visible": true
+        },
+        {
+          "nom": "tableau d'une famille de nobles",
+          "visible": true
+        }
+      ],
+      "mobilier": [
+        {
+          "nom": "une commode en bois",
+          "fouillable": true,
+          "contient": [
+            "mjölnir",
+            "masque de minotaure"
+          ]
+        },
+        {
+          "nom": "un bidet en plein milieu du couloir",
+          "fouillable": true,
+          "contient": [
+            "un katana"
+          ]
+        }
+      ],
+      "portes": [
+        {
+          "vers": "hall-principal",
+          "description": "Une lourde porte en bois massive"
         }
       ]
     }

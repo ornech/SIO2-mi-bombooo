@@ -6,13 +6,8 @@
 graph LR
     Joueur["Joueur"]
 
-    subgraph MI BOMBOOO
-        Deplacer[Déplacer]
-        Interagir[Interagir]
-        Combattre[Combattre]
-        Recuperer[Récupérer]
-        Fuir[Fuir]
-    end
+## Diagramme de séquence 
+![Uploading image.png…]()
 
     Joueur --> Deplacer
     Joueur --> Interagir
